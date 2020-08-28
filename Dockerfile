@@ -1,6 +1,6 @@
 FROM adakb/centos-jboss:latest
 
-ADD ./app /usr/src
+#ADD ./app /usr/src
 ADD ./standalone.xml /usr/local/EAP-6.2.0/jboss-eap-6.2/standalone/configuration/standalone.xml
 ENV JAVA_HOME /usr/java/default
 ENV M2_HOME /usr/local/maven/default
