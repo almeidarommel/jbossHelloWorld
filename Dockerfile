@@ -7,7 +7,7 @@ ENV JAVA_HOME /usr/java/default
 ENV M2_HOME /usr/bin
 
 RUN yum install maven -y
-RUN mvn -version
+RUN $M2_HOME/mvn -version
 RUN $M2_HOME/mvn clean install -f /usr/src/pom.xml
 
 EXPOSE 8080 9999 9990
