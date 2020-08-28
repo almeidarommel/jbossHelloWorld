@@ -20,7 +20,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.jfryer</groupId>
-    <artifactId>jboss-javaee6-webapp</artifactId>
+    <!-- <artifactId>jboss-javaee6-webapp</artifactId> -->
+    <project.artifactId>jboss-javaee6-webapp</project.artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>jboss-javaee6-webapp</name>
