@@ -14,7 +14,7 @@ public class HelloWorldController {
 	@RequestMapping("/helloWorld")
     public String helloWorld(ModelMap model) {
 		
-        model.addAttribute("message", "Hello World!");
+        model.addAttribute("message", "Hello World - Rommel Almeida");
         logger.info("added message {} to model",model.get("message"));
         return "helloWorld";
     }
