@@ -6,7 +6,8 @@ ENV JAVA_HOME /usr/java/default
 #ENV M2_HOME /usr/local/maven/default
 ENV M2_HOME /usr/bin
 
-RUN yum install maven -y && yum install locate -y
+RUN yum install maven -y 
+RUN where mvn
 RUN $M2_HOME/mvn -version
 RUN $M2_HOME/mvn clean install -f /usr/src/pom.xml
 
